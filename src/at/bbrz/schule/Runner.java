@@ -41,6 +41,9 @@ public class Runner {
         System.out.println(wolf);
         Angestellter wolf2 = (Angestellter) wolf;
         System.out.println(wolf2.fullName());
+
+        Schule schule = new Schule(wolf2,paula);
+        System.out.println(schule);
     }
 
 }
