@@ -21,9 +21,9 @@ public class Angestellter extends Person{
     }
     @Override
     public String toString() {
-        return "Angestellter{" +
-                "persId=" + persId +
-                ", gehald=" + gehald +
-                "} " + super.toString();
+        return "Angestellter { " +"\n"+
+                "\tpersId = " + persId +
+                ",\n \tgehald = " + gehald +
+                "\n \t} \n" +"\t"+super.toString();
     }
 }

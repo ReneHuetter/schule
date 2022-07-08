@@ -33,10 +33,10 @@ public class Person {
     }
     @Override
     public String toString() {
-        return "Person{" +
-                "vorname='" + vorname + '\'' +
-                ", nachName='" + nachName + '\'' +
-                ", age=" + age +
-                '}';
+        return "Person { " +"\n" +
+                "\tvorname = '" + vorname + '\'' +
+                "\n \tnachName = '" + nachName + '\'' +
+                ",\n \tage = " + age +
+                "\n \t}"+"\n";
     }
 }

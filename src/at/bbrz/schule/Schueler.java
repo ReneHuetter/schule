@@ -15,8 +15,8 @@ public class Schueler extends Person {
     }
     @Override
     public String toString() {
-        return "Schueler{" +
-                "schuelerId=" + schuelerId +
-                "} " + super.toString();
+        return "Schueler { " +"\n"+
+                "\tschuelerId = " + schuelerId +
+                "\n \t} \n" +"\t"+super.toString();
     }
 }
